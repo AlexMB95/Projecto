@@ -1,0 +1,108 @@
+
+body{
+	width: 100%;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	font-family: Tempus Sans ITC;
+}
+
+.pelis{
+	width: 100%;
+	height: 1000px;
+	position: fixed;
+	background: linear-gradient(#1B9DCF, #FFFFFF);
+}
+.pelis h1{
+	text-align: center;
+	font-size: 45px;
+	color: white;
+}
+
+.pelis h2,h3{
+	position: relative;
+	top: -15px;
+	font-size: 12px;
+	text-align: justify;
+}
+.pelis a{
+	position: relative;
+	left: 1060px;
+	top: -70px;
+	text-decoration: none;
+	color: white;
+	font-size: 35px;
+}
+.pelis a:hover{
+	color: blue;
+}
+
+#title, #desc, #cover, #min, #clas, #cat, #btn1{
+	position: relative;
+	left: 75px;
+	bottom: 40px;
+	width: 250px;
+}
+
+#title2, #description2, #cover2, #minutes2, #clasification2, #category2, #btn2{
+	position: relative;
+	left: 75px;
+	bottom: 40px;
+	width: 250px;
+}
+
+#updateForm{
+	display: none;
+}
+.F{
+	width: 50%;
+	height: 500px;
+	position: fixed;
+	top: 100px;
+}
+
+.F fieldset{
+	width: 60%;
+	height: 450px;
+	margin: auto;	
+	background-color: white;
+	padding:30px;
+	border-radius: 5px;
+	border-style: none;
+	/*position: relative;
+	vertical-align: top;
+	bottom: 390px;
+	left: : 350px;*/
+}
+.T{
+	width: 100%;
+	height: 500px;
+	position: fixed;
+	overflow-y: scroll;
+	top: 100px;
+}
+.T table, thead, tbody{
+	border-style: none;
+	border-radius: 5px;
+	background-color: white;
+	/*border-collapse: collapse;*/
+	position: relative;
+	left: 600px;
+	text-align: center;
+}
+.T th{
+	width: 20px;
+	min-height: 100px;
+}
+.T img{
+	width: 100px; 
+	height: 130px;
+}
+#logout{
+	width: 10%;
+	position: relative;
+	left: 1150px;
+	top: 10px;
+}
+
+

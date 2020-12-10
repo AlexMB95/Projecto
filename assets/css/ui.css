@@ -1,0 +1,372 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Tempus Sans ITC, Sans-serif;
+}
+.catalogo{
+	width: 18%;
+	height: 40px;
+	
+}
+
+/* ----------------------------------------------------------- */
+
+/* Efecto parallax*/
+.hola2{
+	
+	height: 450px;
+	padding:20px;
+	/*margin-top: 60px;*/
+	background-image: url(../img/sg.png);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.hola2 img{
+
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	top: 50px;
+	
+}
+
+.hola2 h2{
+
+	font-family: courier,arial,helvética;
+	font-size: 15;
+	position: absolute;
+	top: 220px;
+	left: 646px;
+	width: 600px;
+	text-align: center;
+	color: white;
+	
+}
+
+.hola2 span{
+	color: #FFC107;
+
+}
+/* ----------------------------------------------------------------- */
+
+.hola3{
+
+	height: 800px;
+	padding:20px;
+	margin-top: 0px;
+	background: linear-gradient(#1B9DCF, #FFFFFF); /* Da degradado con solo dos parámetros, la cual, solo son dos colores*/
+
+}
+
+
+.hola3 h2{
+
+	font-family: courier,arial,helvética;
+	color: white;
+	width: 300px;
+	position: absolute;
+	left: 470px;
+	top: 520px;
+	text-align: center;
+
+}
+
+.hola3 span{
+
+	color: #FFC107;
+
+}
+
+/* --------------------------------------------------------------- */
+.hola4{
+
+	height: 900px;
+	padding:20px;
+	margin-top: 0px;
+	background-color: white;
+
+}
+
+
+.hola4 h2{
+
+	font-family: courier,arial,helvética;
+	font-size: 30px;
+	color: #3F3F3F;
+	width: 400px;
+	position: absolute;
+	left: 440px;
+	top: 1320px;
+	text-align: center;
+
+}
+
+.hola4 span{
+
+	color: #FFC107;
+
+}
+
+/*Métodos utilizados para la animación del slider*/
+.slider {
+
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+
+}
+
+.slider ul{
+
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation:  cambio 20s infinite alternate;
+	animation-timing-function: ease;
+	
+}
+
+.slider:nth-child(2) ul{
+	animation-timing-function: ease-in;
+}
+
+@keyframes  cambio {
+
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+
+}
+
+
+
+.slider li{
+
+	list-style: none;
+	width: 500%;
+	
+}
+
+.slider img{
+	width: 100%;
+
+}
+
+.slider a{
+	text-decoration: none;
+}
+
+
+
+.slider a:hover{
+
+	transition: all .3s;
+	transform: scale(1.2, 1.2);
+
+}
+
+.catalago {
+
+	width: 1090px;
+	position: relative;
+	top: 60px;
+	left: 80px;
+	list-style: none;
+}
+
+.catalago ul{
+
+	display: inline-block;
+
+}
+
+.catalago li{
+
+	list-style: none;
+	
+	margin: 20px;
+
+}
+
+
+.catalago img{
+
+	width: 150px;
+	height: 200px;
+
+	transition: all .3s;
+
+}
+
+.catalago img:hover {
+
+	transition: all .3s;
+	transform: scale(1.2, 1.2);
+	opacity: 0.6;
+
+}
+
+
+.catalago a{
+
+	text-decoration: none;
+
+}
+.fondo5 {
+	height: 500px;
+	background: linear-gradient(#FFFFFF,#009688);
+}
+/* ----------------------------------------------------------------- */
+.hola5 {
+
+	height: 500px;
+	margin-top: 0px;
+	background-image: url(../img/c3.jpeg);
+	background-repeat: no-repeat;
+	opacity: 0.4;
+	padding: auto;
+}
+
+.frase{
+
+	position: relative;
+	top: -320px;
+	left: 500px;
+	width: 300px;
+}
+
+.frase h2{
+
+	color: white;
+	text-align: center;
+	font-family: courier,arial,helvética;
+
+}
+/* ----------------------------------------------------- */
+.hola7 {
+
+	height:470px;
+	padding:20px;
+	margin-top: 0px;
+	background: linear-gradient(#FFFFFF,#0080BD);
+}
+/* ----------------------------------------------------- */
+.hola8{
+
+	height: 300px;
+	padding:20px;
+	margin-top: 0px;
+	background-color: #0080BD;
+
+}
+.fondo8 img{
+
+	height: 300px;
+	width: 1220px;
+	padding: auto;
+
+
+}
+
+.fondo9 {
+
+	position: relative;
+	top: -150px;
+	left: 50px;
+	width: 200px;
+	height: 200px;
+
+}
+.fondo9 img {
+
+	width: 200px;
+	height: 200px;
+	position: relative;
+	top: 10px;
+	left: 130px;
+}
+
+.fondo9 a{
+	text-decoration: none;
+}
+
+.fondo9 h2{
+
+	font-family: courier,arial,helvética;
+	font-size: 15;
+	position: absolute;
+	top: 80px;
+	left: 300px;
+	width: 600px;
+	text-align: center;
+	color: white;
+}
+
+.fondo9 span{
+	color: #FFC107;
+}
+/* ----------------------------------------------------- */
+.hola9 {
+
+
+	height: 200px;
+
+	padding:20px;
+	margin-top: 0px;
+	background: linear-gradient(#0080BD,#0072A8);
+
+
+}
+
+
+.hola9 hr{
+
+	position: relative;
+	top: 40px;
+	left: 50px;
+	width: 420px;
+	border: 0; 
+	height: 12px;
+	box-shadow: inset 0 12px 12px -12px  #BDBDBD;
+
+}
+
+.hola9 p{
+
+	position: relative;
+	top: 40px;
+	left: 510px;
+	color: #BDBDBD;
+	text-align: center;
+	width: 300px;
+
+}
+
+.hola9 label{
+	position: relative;
+	top: 80px;
+	left: 490px;
+	color:#FFFFFF;
+}
+
+.hola9 span{
+	color: #BDBDBD;
+}
+#logout{
+	width: 10%;
+	position: relative;
+	left: 1150px;
+	bottom: 3750px;
+}

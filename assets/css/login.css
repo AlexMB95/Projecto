@@ -1,0 +1,71 @@
+
+body{
+	width: 100%;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	font-family: Tempus Sans ITC;
+}
+fieldset{
+	width: 30%;
+	height: 450px;
+	margin: auto;	
+	background-color: white;
+	padding:30px;
+	border-radius: 5px;
+	box-shadow: 5px 5px 15px black;
+}
+
+.iniciar{
+	width: 100%;
+	height: 500px;
+	position: relative;
+	top: -450px;
+	
+}
+.iniciar h2, h3{
+	position: relative;
+	left: 75px;	
+	top: 10px;
+}
+
+.fondo{
+	width: 100%;
+	height: 500px;
+}
+.fondo img{
+	width: 100%;
+	height: 625px;
+	opacity: 0.7;
+}
+#user, #pass, #btn, #btn2{
+	position: relative;
+	left: 75px;
+	width: 250px;
+}
+#btn2{
+	position: relative;
+	bottom: 70px;
+	border-style: none;
+	background-color: white;
+}
+#btn2:hover{
+	color: blue;
+}
+#registerForm{
+	position: relative;
+	top: -950px;
+	display: none;
+}
+#registerForm h2, h3{
+	position: relative;
+	left: 75px;	
+	top: 10px;
+}
+
+#name, #lastname, #email, #password, #btn3{
+	position: relative;
+	left: 70px;
+	width: 250px;
+	bottom: 15px;
+}
